@@ -46,7 +46,18 @@ body {
   max-width: 40%;
 }
 
-.social {
+.social-container {
   display: grid;
   grid-template-columns: repeat(5, 3.125em);
+}
+
+.social {
+  margin: .125em;
+  width: 45px;
+  height: 45px;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items:center;
 }
