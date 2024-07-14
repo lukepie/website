@@ -26,6 +26,7 @@ body {
 
 .intro-logo {
   max-width: 5%
+  padding-inline: 5px;
 }
 
 .intro-name {
