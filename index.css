@@ -20,7 +20,7 @@ p {
   max-width: 5%
 }
 
-intro-name {
+.intro-name {
   color: #2980B9;
   text-decoration: underline;
 }
