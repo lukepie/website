@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body {
+  margin: 100px; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
