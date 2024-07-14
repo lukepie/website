@@ -1,5 +1,4 @@
 * {
-  text-align: center;
   background-color: #121212;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -14,10 +13,11 @@ body {
 }
 
 .intro-logo {
-  max-width: 5%
+  max-width: 1%
 }
 
 .intro-name {
   color: #2980B9;
   text-decoration: underline;
+  display: inline;
 }
