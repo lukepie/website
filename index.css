@@ -8,6 +8,17 @@ body {
   margin: 100px; 
 }
 
+.container-r {
+  text-align: center;
+  margin: 1em auto;
+  margin-left: calc(100% / 2 - 250px)
+}
+
+.container-l {
+  max-width: 500px;
+  margin: 1em auto;
+}
+
 .intro {
   margin-top: 2rem;
 }
