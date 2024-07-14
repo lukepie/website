@@ -45,3 +45,8 @@ body {
   border-radius: 100px;
   max-width: 40%;
 }
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(5, 3.125em);
+}
