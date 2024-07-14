@@ -42,8 +42,10 @@ body {
 }
 
 .headshot {
-  border-radius: 100px;
-  max-width: 40%;
+  border-radius: 300px;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
 }
 
 .social-container {
