@@ -52,7 +52,7 @@ body {
   grid-template-columns: repeat(5, 3.125em);
 }
 
-.social {
+.fa-brands {
   margin: .125em;
   width: 45px;
   height: 45px;
