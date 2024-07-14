@@ -16,6 +16,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.intro {
+  margin-top: 2rem;
+}
+
 .intro-logo {
   max-width: 5%
 }
