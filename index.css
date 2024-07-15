@@ -102,6 +102,7 @@ body {
   border-radius: 50%;
   display: grid;
   place-items: center;
+  transition-duration: 0.4s;
 }
 
 .social a:link {
