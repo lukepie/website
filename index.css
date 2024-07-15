@@ -24,6 +24,10 @@ body {
   word-spacing: 20px;
 }
 
+.a.menu:link {
+  text-decoration: none;
+}
+
 a.menu:hover {
   opacity: 0.7;
 }
