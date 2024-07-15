@@ -45,7 +45,7 @@ h3 {
 }
 
 body {
-  margin: 15%;
+  margin: 7%;
   display: grid; 
   grid-template-columns: 1fr 1fr;
 }
