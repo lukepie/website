@@ -4,8 +4,7 @@
 }
 
 body {
-  background: rgb(64,64,64);
-  background: linear-gradient(rgba(64,64,64,1) 0%, rgba(40,40,40,1) 30%);
+  background-color: #282828;
 }
 
 .footer {
