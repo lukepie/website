@@ -29,8 +29,8 @@ body {
 }
 
 a.menu:hover {
-  opacity: 0.7;
-  transition-duration: 0.7s;
+  opacity: 0.6;
+  transition-duration: 0.6s;
 }
 
 h1 {
@@ -110,6 +110,6 @@ body {
 }
 
 .social a:hover {
-  opacity: 0.7;
-  transition-duration: 0.7s;
+  opacity: 0.6;
+  transition-duration: 0.6s;
 }
