@@ -30,6 +30,7 @@ body {
 
 a.menu:hover {
   opacity: 0.7;
+  transition-duration: 0.7s;
 }
 
 h1 {
@@ -102,7 +103,6 @@ body {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  transition-duration: 0.4s;
 }
 
 .social a:link {
@@ -111,4 +111,5 @@ body {
 
 .social a:hover {
   opacity: 0.7;
+  transition-duration: 0.7s;
 }
