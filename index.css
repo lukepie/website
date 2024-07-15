@@ -25,6 +25,8 @@ body {
   margin: 1em auto;
   margin-left: 0px;
   margin-right: auto;
+  display: inline-block; 
+  text-align: left;
 }
 
 .container-l {
