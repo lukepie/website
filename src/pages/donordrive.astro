@@ -1,5 +1,16 @@
 ---
-import { redirect } from "astro:redirect";
-
-redirect("https://donate.thon.org/participant/lukepie");
 ---
+<script>
+  if (typeof window !== 'undefined') {
+    window.location.replace('https://donate.thon.org/participant/lukepie');
+  }
+</script>
+
+<!-- Meta refresh fallback -->
+<meta http-equiv="refresh" content="0; url=https://donate.thon.org/participant/lukepie" />
+
+<!-- Accessible fallback link -->
+<p>Redirecting to <a href="https://donate.thon.org/participant/lukepie">donate.thon.org/participant/lukepie</a>…</p>
+<noscript>
+  <p>If you are not redirected automatically, please <a href="https://donate.thon.org/participant/lukepie">click here</a>.</p>
+</noscript>
