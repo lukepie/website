@@ -32,17 +32,27 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
-    <div class="experience__data bd-grid px-5">
-    <h2 class="font-semibold mb-1 psu-color">Penn State University</h2>
-    <p class="font-semibold">Master of Accounting</p>
-    <span class="font-light text-sm">Class of 2026</span>
-    <p class="my-2 text-justify">
-      <slot />
-    </p>
+    <TimeLineElement style="psu-color" title="Penn State University">
+      <ul class="list-disc ml-6 mt-2 space-y-2">
+        <li>
+          <span class="font-semibold">Master of Accounting</span>
+          <div class="ml-4 text-gray-600 text-sm list-none">Aug 2022 – Present</div>
+        </li>
+        <li>
+          <span class="font-semibold">Accounting, B.S.</span>
+          <div class="ml-4 text-gray-600 text-sm list-none">Aug 2022 – Present</div>
+        </li>
+        <li>
+          <span class="font-semibold">Management Information Systems, B.S.</span>
+          <div class="ml-4 text-gray-600 text-sm list-none">Aug 2022 – Present</div>
+        </li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Title Name"
+      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+    />
   </div>
-  </div>
-
-
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Experience</div>
